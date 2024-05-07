@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./Assets/style.css">
+    
+    <title>Quiz Application</title>
+</head>
+<body>
+
+    <div class="box-score"> 
+        <header> 
+            <aside> 
+                <a href="./highscore.html"> 
+                    <button class="scores-header" 
+                            id="view-high-scores"> 
+                        View High Scores 
+                    </button> 
+                </a> 
+            </aside> 
+
+    <aside class="timer">         
+        <p>
+           Time:  
+         <time id="timer"> 0 </time>
+          
+        </p> 
+    </aside>
+
+    <main class = "quiz" id = "quiz-start">
+        <aside class = "landing" id = "start-screen">
+
+        
+
+    <h1> Coding Quiz Challenge </h1>
+
+    <p> Here is a list of questions about Javascript. You have a minute to complete the challenge. Goodluck!</p>
+
+<button  id = "start"> 
+
+    Start 
+
+</button>
+        </aside>
+        
+
+<section class="hide" id="questions"> 
+
+    <h2 id="questions-words"></h2> 
+
+    <aside class="choices" id="choices"> 
+
+    </aside> 
+
+</section> 
+
+<section class="hide" id="end">
+
+    <h2>All Done!</h2> 
+
+    <p>Your final score is:
+
+        <aside id="score">
+
+        </aside> 
+    </p> 
+    
+
+<p> 
+    Please enter your name: 
+    <input type="text" 
+           id="name" 
+           max="5" /> 
+    <button id="submit-score"> 
+        Submit 
+    </button> 
+</p> 
+
+</section>
+
+<aside id="comment"class="comment hide">
+
+</aside> 
+
+    </main>
+    
+    <script src = "./Assets/script.js"> </script>
+    
+</body>
+</html>

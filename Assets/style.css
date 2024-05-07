@@ -1,0 +1,77 @@
+/* setup for the question class*/
+.question {
+font-size: 30px;
+margin-left: 30px;
+}
+
+/*set timer */
+.timer { 
+    position: fixed; 
+    top: 20px; 
+    right: 20px;
+   
+}
+
+/* setup for the multiple choice class */
+.choices {
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 30px;
+    position: relative;
+
+}
+
+.landing { 
+	text-align: center; 
+}
+
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: purple;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: black;
+
+}
+
+.choices button {
+    display: inline;
+}
+
+
+.hide { 
+    display: none; 
+} 
+ 
+.comment { 
+    font-style: normal; 
+    font-size: 120%; 
+    margin-top: 20px; 
+    padding-top: 15px; 
+    color: #fff; 
+    border-top: 2px solid #4B0082;
+}
+
+/* */
+ol { 
+    padding-left: 15px; 
+    max-height: 600px; 
+    overflow: auto; 
+} 
+ 
+li { 
+    padding: 5px; 
+    list-style: decimal inside none; 
+} 
+
+#score {
+    font-size: 30px;
+    color: blue;
+}
